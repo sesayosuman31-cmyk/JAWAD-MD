@@ -37,7 +37,7 @@ AUTO_AUDIO: process.env.AUTO_AUDIO || "false",
 AUTO_BIO: process.env.AUTO_BIO || "false",
 AUTO_BIO_QUOTE: process.env.AUTO_BIO_QUOTE || "i am jawad md",
 CHAT_BOT: process.env.CHAT_BOT || "groups", // Put value to true to enablle for all chats only or inbox to ebanle in pm chats only or groups to enable in groups only else false
-WELCOME: process.env.WELCOME || "groups",
+WELCOME: process.env.WELCOME || "false",
 //not working for the moment do don't on it
 GOODBYE: process.env.GOODBYE || "false", //not working for the moment do don't on it
 AUTO_READ_MESSAGES: process.env.AUTO_READ_MESSAGES || "false", // Enter value to true for blueticking all messages, or commands for blueticking only commands else false
